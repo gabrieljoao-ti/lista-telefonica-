@@ -12,7 +12,6 @@ typedef struct {
     char tipo[20];
 } Contato;
 
-// A função cadastrar fica aqui em cima da main
 void cadastrar(Contato vet[], int *total) {
     if (*total >= MAX_CONTATOS) {
         printf("\n[ERRO] Memoria cheia! Nao e possivel cadastrar novos contatos.\n");
@@ -49,7 +48,7 @@ int main() {
     do {
         system("cls");
         printf("=========================================\n");
-        printf("      SISTEMA DE GERENCIAMENTO DE CONTATOS\n");
+        printf("  SISTEMA DE GERENCIAMENTO DE CONTATOS\n");
         printf("=========================================\n");
         printf("1. Cadastrar contato\n");
         printf("2. Alterar contato\n");
